@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DAL\ITrainingDAL.cs" />
     <Compile Include="DAL\ManagerDAL.cs" />
     <Compile Include="DAL\TrainingDAL.cs" />
     <Compile Include="Entity\Enrollment.cs" />

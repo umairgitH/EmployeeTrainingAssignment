@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeTrainingAssignment.DAL
 {
-    public class TrainingDAL : ITrainingRepository
+    public class TrainingDAL :  ITrainingDAL
     {
         public TrainingDAL()
         {

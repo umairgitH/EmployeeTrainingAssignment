@@ -9,8 +9,8 @@ namespace EmployeeTrainingAssignment.Repository
 {
     public class TrainingService : ITrainingRepository
     {
-        private readonly ITrainingRepository _training;
-        public TrainingService(ITrainingRepository training)
+        private readonly ITrainingDAL _training;
+        public TrainingService(ITrainingDAL training)
         {
             _training = training;
         }

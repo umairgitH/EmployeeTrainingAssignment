@@ -8,7 +8,7 @@ namespace EmployeeTrainingAssignment.Repository
 {
     public class ManagerService : IManagerRepository
     {
-        private ManagerService _managerService;
+        
         public ManagerService() { }
 
         public void ApplicationApproval()
